@@ -1,0 +1,21 @@
+.d-sob {
+  background-image: url("../assets/u.png");
+  background-size: 58px;
+  background-position: 40% 30%;
+  top: 13px;
+}
+
+.aa {
+  background-image: url("../assets/aa.png");
+  background-size: 51px;
+  background-position: 40% 50%;
+}
+
+.edu-info-header {
+  position: relative;
+}
+
+.eduh1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

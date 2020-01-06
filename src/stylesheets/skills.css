@@ -1,0 +1,71 @@
+.skill-bubble {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  /* border: 1px solid #d3d3d3; */
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.skill-container {
+  display: flex;
+}
+
+.skills-container-sub {
+  display: flex;
+  justify-content: center;
+}
+
+#img-js {
+  background-image: url("../assets/skills/javascript.png");
+}
+
+#img-ruby {
+  background-image: url("../assets/skills/ruby.png");
+}
+
+#img-rails {
+  background-image: url("../assets/skills/rubyonrails.png");
+}
+
+#img-react {
+  background-image: url("../assets/skills/react.png");
+}
+
+#img-redux {
+  background-image: url("../assets/skills/redux.png");
+}
+
+#img-node {
+  background-image: url("../assets/skills/node.png");
+}
+
+#img-apollo {
+  background-image: url("../assets/skills/apolloGL.png");
+}
+
+#img-docker {
+  background-image: url("../assets/skills/docker.png");
+}
+
+#img-git {
+  background-image: url("../assets/skills/git.png");
+}
+
+#img-webpack {
+  background-image: url("../assets/skills/webpack.png");
+}
+
+#img-post {
+  background-image: url("../assets/skills/post.png");
+}
+
+#img-aws {
+  background-image: url("../assets/skills/aws.png");
+}
+
+#img-mongo {
+  background-image: url("../assets/skills/mongo.png");
+}

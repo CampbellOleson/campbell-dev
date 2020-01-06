@@ -1,0 +1,11 @@
+#about-me section {
+  margin: 15px;
+  font-size: 20px;
+}
+
+#about-me {
+  width: 750px;
+  margin: 0 auto;
+  margin-top: 40px;
+  color: #383838;
+}
