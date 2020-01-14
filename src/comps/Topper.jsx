@@ -4,7 +4,7 @@ import Experience from "./attributes/Experience";
 import Projects from "./attributes/Projects";
 import Skills from "./attributes/Skills";
 import Education from "./attributes/Education";
-import Contact from "./attributes/Contact";
+// import Contact from "./attributes/Contact";
 import Resume from "../assets/skills/Resume.pdf";
 
 class Topper extends React.Component {
@@ -40,15 +40,15 @@ class Topper extends React.Component {
       case 3: {
         return <Projects />;
       }
-      case 4: {
-        return <Skills />;
-      }
+      // case 4: {
+      //   return <Skills />;
+      // }
       case 5: {
         return <Education />;
       }
-      case 6: {
-        return <Contact />;
-      }
+      // case 6: {
+      // return <Contact />;
+      // }
       default: {
         return <AboutMe />;
       }
@@ -111,24 +111,24 @@ class Topper extends React.Component {
             >
               Projects
             </div>
-            <div
+            {/* <div
               className="top-nav-button"
               onClick={e => this.assignRender(e, 4)}
             >
               Skills
-            </div>
+            </div> */}
             <div
               className="top-nav-button"
               onClick={e => this.assignRender(e, 5)}
             >
               Education
             </div>
-            <div
+            {/* <div
               className="top-nav-button"
               onClick={e => this.assignRender(e, 6)}
             >
               Contact
-            </div>
+            </div> */}
           </div>
         </div>
         <div id="mount">{this.renderable()}</div>

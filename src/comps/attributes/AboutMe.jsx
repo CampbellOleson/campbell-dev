@@ -8,8 +8,8 @@ class AboutMe extends React.Component {
           <strong>About Me</strong>
         </span>
         <section>
-          Howdy folks! I’m Campbell, a business-student-turned-software
-          developer residing in Salt Lake City, Utah. I’ve spent the last six
+          I’m a business-student-turned-software
+          developer residing in Salt Lake City, Utah. I’ve spent the last nine
           months building full-stack web applications and sharpening my skills
           as a software engineer.
         </section>

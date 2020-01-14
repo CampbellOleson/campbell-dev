@@ -84,14 +84,16 @@
   height: 5vh;
   cursor: pointer;
   box-shadow: 1px 1px 2px grey;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: #e6e6fa;
 }
 
 .top-nav-button {
   background-color: #e6e6fa;
   color: #1b1b1b;
-  width: 17%;
+  width: 25%;
   border: 1px solid #8e8ead;
-  /* ^ get opinions on this */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -182,4 +184,15 @@ a {
   position: absolute;
   top: 20%;
   left: 30%;
+}
+
+#footer {
+  height: 12vh;
+  background: #efeffb;
+}
+
+#footer p {
+  padding-top: 5vh;
+  /* padding-left: 8vw; */
+  margin-left: 42%;
 }
