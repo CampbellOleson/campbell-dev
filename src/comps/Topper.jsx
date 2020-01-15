@@ -2,7 +2,7 @@ import React from "react";
 import AboutMe from "./attributes/AboutMe";
 import Experience from "./attributes/Experience";
 import Projects from "./attributes/Projects";
-import Skills from "./attributes/Skills";
+// import Skills from "./attributes/Skills";
 import Education from "./attributes/Education";
 // import Contact from "./attributes/Contact";
 import Resume from "../assets/skills/Resume.pdf";
